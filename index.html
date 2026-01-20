@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Your Name — Tennis Coaching</title>
+    <meta name="description" content="Tennis coaching for kids ages 6–10 in Livingston, NJ." />
+    <style>
+      body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;line-height:1.5}
+      .wrap{max-width:960px;margin:0 auto;padding:48px 20px}
+      .card{border:1px solid #e7e7e7;border-radius:16px;padding:28px}
+      h1{margin:0 0 8px;font-size:40px}
+      .muted{color:#555}
+      .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-top:18px}
+      a.btn{display:inline-block;padding:12px 16px;border-radius:12px;border:1px solid #111;text-decoration:none;color:#111;margin-right:10px}
+      a.btn.primary{background:#111;color:#fff}
+      ul{margin:10px 0 0;padding-left:18px}
+      footer{margin-top:22px;color:#666;font-size:14px}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <h1>Your Name</h1>
+        <div class="muted">Tennis coaching for kids (ages 6–10) — Livingston, NJ</div>
+
+        <div class="grid">
+          <div>
+            <h3>What we do</h3>
+            <ul>
+              <li>Fun, game-based fundamentals</li>
+              <li>Confidence + coordination</li>
+              <li>Small groups or 1:1</li>
+            </ul>
+          </div>
+          <div>
+            <h3>About</h3>
+            <ul>
+              <li>Competitive player</li>
+              <li>Patient coaching style</li>
+              <li>Safe, positive environment</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Contact</h3>
+            <p class="muted">Email or text to book a session.</p>
+            <p>
+              <a class="btn primary" href="mailto:youremail@example.com">Email me</a>
+              <a class="btn" href="tel:+1XXXXXXXXXX">Call/Text</a>
+            </p>
+          </div>
+        </div>
+
+        <footer>
+          © <span id="y"></span> Your Name
+        </footer>
+      </div>
+    </div>
+    <script>document.getElementById("y").textContent=new Date().getFullYear();</script>
+  </body>
+</html>
